@@ -60,3 +60,32 @@ c = 12
 c 
 print(c)
 
+# Concatenate Elements:
+  # You can also concatenate, or join, two or more elements, by using the paste() function.
+   # To combine both text and a variable, R uses comma (,):
+
+f <- 'awesome'
+paste('R is',f) # "R is awesome"
+
+# for numbers:
+n1 <- 2
+n2 <- 3
+n3 <- n1 + n2
+print(n3)
+
+# Multiple Variables:
+v1 <- v2 <- v3 <- 'fruit'
+v1
+v2
+v3
+
+### Basic Data types of R: ###
+  # numeric - (10.5, 55, 787)
+  # integer - (1L, 55L, 100L, where the letter "L" declares this as an integer)
+  # complex - (9 + 3i, where "i" is the imaginary part)
+  # character (a.k.a. string) - ("k", "R is exciting", "FALSE", "11.5")
+  # logical (a.k.a. boolean) - (TRUE or FALSE)
+
+# to check which variable,which types of datatype. we use class().
+
+
